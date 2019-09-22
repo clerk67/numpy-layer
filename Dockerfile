@@ -1,6 +1,6 @@
 FROM lambci/lambda:build-python3.7
 
-RUN pip install --upgrade pip && pip install -t python numpy
+RUN pip install --upgrade pip && pip install -t python numpy matplotlib
 
 RUN zip -ry9 numpy.zip python
 
